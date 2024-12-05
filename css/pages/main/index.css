@@ -1,0 +1,55 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main .maincontainer1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+main .maincontainer1 .rightsidecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  background-color: #154444;
+}
+main .maincontainer1 .rightsidecontainer .wehelp {
+  width: 611px;
+  height: 136px;
+  font-size: 56px;
+  color: white;
+}
+main .maincontainer1 .rightsidecontainer .ourfurniture {
+  width: 488px;
+  height: 75px;
+  font-size: 20px;
+  color: white;
+}
+main .maincontainer1 .rightsidecontainer .exploremore {
+  width: 172px;
+  height: 56px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+}
+main .companiescontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 140px;
+}
+main .companiescontainer .trusted {
+  font-size: 32px;
+  color: #244D4D;
+}
+main .companiescontainer .logocontainer {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  padding-top: 44px;
+}/*# sourceMappingURL=index.css.map */

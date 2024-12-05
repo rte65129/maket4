@@ -1,0 +1,27 @@
+body{
+    .maincontainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 40px;
+        .DudeShape{
+            font-size: 24px;
+            color: #244D4D;
+        }
+        .ullinks{
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            font-size: 16px;
+            a{
+                color: black;
+            }
+        }
+        .imglink{
+            display: flex;
+            gap: 30px;
+        }
+    }
+
+}
