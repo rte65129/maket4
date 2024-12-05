@@ -1,0 +1,16 @@
+body{
+    /* Здесь будет основной шрифт проекта */
+
+    /* цвет фона всего цена  */
+}
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container{
+    /* Здесь будут стили контейнера */
+}
