@@ -52,4 +52,200 @@ main .companiescontainer .logocontainer {
   gap: 100px;
   align-items: center;
   padding-top: 44px;
+}
+main .aboutasscontainer {
+  display: flex;
+  padding-top: 140px;
+  justify-content: center;
+}
+main .aboutasscontainer .pickcont {
+  position: relative;
+}
+main .aboutasscontainer .graysqr {
+  width: 631px;
+  height: 588px;
+  background-color: #DEE4E2;
+  position: absolute;
+  top: 20px;
+  z-index: -1;
+}
+main .aboutasscontainer .abouttextcontainer {
+  height: 487px;
+  width: 437px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 100px;
+}
+main .aboutasscontainer .aboutstyle {
+  font-size: 32px;
+  color: #154444;
+}
+main .aboutasscontainer .etrg {
+  font-size: 20px;
+  color: #444444;
+}
+main .aboutasscontainer .bestquality {
+  display: flex;
+}
+main .aboutasscontainer .bestquality .bestqualitytext {
+  display: flex;
+  flex-direction: column;
+}
+main .aboutasscontainer .bestquality .bestqualitytext .subtitleabout {
+  font-size: 20px;
+  color: #244D4D;
+}
+main .aboutasscontainer .bestquality .bestqualitytext .suptextabout {
+  font-size: 18px;
+  color: #383738;
+}
+main .ourfurniturecontainer {
+  width: 100%;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .ourfurniturecontainer .ourfurnituretitlecontainer {
+  display: flex;
+  gap: 200px;
+  padding-bottom: 40px;
+}
+main .ourfurniturecontainer .h4_Furniture {
+  font-size: 32px;
+}
+main .ourfurniturecontainer .Allofourfurniture {
+  font-size: 20px;
+  color: #383738;
+  width: 819px;
+  height: 50px;
+  padding-top: 30px;
+}
+main .ourfurniturecontainer .ourfurnituresliders {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+main .ourfurnituretext {
+  height: 123px;
+  width: 819px;
+}
+main .rrr {
+  display: flex;
+  gap: 30px;
+}
+main .ergsdf {
+  width: 380px;
+  height: 382px;
+  box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.0705882353);
+}
+main .img34 {
+  width: 380px;
+  height: 246px;
+}
+main .WhiteSwanChairContainer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+main .Whitechairlower {
+  display: flex;
+  justify-content: space-around;
+  gap: 120px;
+  margin-top: 20px;
+}
+main .Whitechairlower .lower40buckBuynow {
+  width: 78px;
+  height: 32px;
+  background-color: #244D4D;
+  color: white;
+}
+main .containerOfAllFurnit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+main .containerOfAllFurnit .kaknazvatto {
+  width: 1240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+main .containerOfAllFurnit .kaknazvatto .kaknazvattoImg {
+  position: relative;
+}
+main .containerOfAllFurnit .kaknazvatto .kaknazvattoImg .back1 {
+  width: 190px;
+  height: 85px;
+  background-color: #154444;
+  position: absolute;
+  bottom: 320px;
+  left: -20px;
+  z-index: -1;
+}
+main .containerOfAllFurnit .kaknazvatto .kaknazvattoImg .back2 {
+  width: 190px;
+  height: 85px;
+  background-color: #154444;
+  position: absolute;
+  bottom: -20px;
+  left: 380px;
+  z-index: -1;
+}
+main .containerOfAllFurnit .kaknazvatto .allfournitGridconteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 50px;
+  height: 474px;
+  width: 337px;
+}
+main .containerOfAllFurnit .kaknazvatto .allfournitGridconteiner .allfournitGridElefemt {
+  width: 222px;
+  height: 90px;
+  border: 2px #D9DCE5 solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .containerOfAllFurnit .kaknazvatto .allfournitGridconteiner .allfournitGridElefemt:hover {
+  background-color: #154444;
+  border: none;
+  color: white;
+}
+main .containerOfAllFurnit .kaknazvatto .allfournitGridconteiner .imgofgrid {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+main .containerOfAllFurnit .HeadofAllFurnit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .containerOfAllFurnit .HeadofAllFurnit .h4AllFurniture {
+  font-size: 32px;
+  color: #242424;
+}
+main .containerOfAllFurnit .HeadofAllFurnit .ulOfShop {
+  display: flex;
+  gap: 100px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+main .containerOfAllFurnit .HeadofAllFurnit .ulOfShop .liOfulShop {
+  font-size: 24px;
+  color: #919090;
+}
+main .containerOfAllFurnit .HeadofAllFurnit .ulOfShop .liOfulShop:hover {
+  color: #154444;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }/*# sourceMappingURL=index.css.map */
